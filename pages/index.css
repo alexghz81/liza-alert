@@ -3,3 +3,17 @@
 @import url(../blocks/button/_signup/button_signup.css);
 @import url(../blocks/button/_disabled/button_disabled.css);
 @import url(../blocks/button/_continue/button_continue.css);
+@import url(../blocks/icon/icon.css);
+@import url(../blocks/icon/_unchecked/icon_unchecked.css);
+@import url(../blocks/icon/_profile/icon_profile.css);
+@import url(../blocks/icon/_profile-active/icon_profile_active.css);
+@import url(../blocks/icon/_pencil/icon_pencil.css);
+@import url(../blocks/icon/_medal/icon_medal.css);
+@import url(../blocks/icon/_league/icon_league.css);
+@import url(../blocks/icon/_hat/icon_hat.css);
+@import url(../blocks/icon/_hat-active/icon_hat_active.css);
+@import url(../blocks/icon/_exit/icon_exit.css);
+@import url(../blocks/icon/_clock/icon_clock.css);
+@import url(../blocks/icon/_clip/icon_clip.css);
+@import url(../blocks/icon/_checked/icon_checked.css);
+@import url(../blocks/icon/_book/icon_book.css);
