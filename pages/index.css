@@ -17,4 +17,7 @@
 @import url(../blocks/card/__difficult/card__difficult.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content-wrapper/content-wrapper.css);
-
+@import url(../blocks/filtrs/filtrs.css);
+@import url(../blocks/filtrs/__subtitle/filtrs__subtitle.css);
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/details/details.css);
