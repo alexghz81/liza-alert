@@ -1,45 +1,110 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Команда №2" />
+    <meta name="description" content="Учебная платформа LizaAlert" />
+    <meta name="keywords" content="LizaAlert, обучение" />
+    <title>LizaAlert</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Команда №2" />
-  <meta name="description" content="Учебная платформа LizaAlert" />
-  <meta name="keywords" content="LizaAlert, обучение" />
-  <title>LizaAlert</title>
-  <link rel="stylesheet" href="./pages/index.css" />
-</head>
-
-<body class="page">
-
-
-  <div class="content-wrapper card">
-    <img
-      src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg"
-      alt="dog" class="card__picture">
-    <div class="card__main-info">
-      <h2 class="card__title">Кинологическое направление</h2>
-      <p class="card__description">
-        Поисково-спасательная работа, следовая работа, а так же поиск тел погибших с помощью собак
-        Поисково-спасательная работа, следовая работа, а так же поиск тел погибших с помощью собак
-        Поисково-спасательная работа, следовая работа, а так же поиск тел погибших с помощью собак
-      </p>
-    </div>
-    <div class="card__additional-info">
-      <div class="card__time-wrapper">
-        <div class="card__time-item">
-          <span class="icon icon_book"></span>
-          144 занятия
-        </div>
-        <div class="card__time-item">
-          <span class="icon icon_clock"></span>
-          144 ч
-        </div>
+  <body class="page">
+    <div class="content-wrapper card">
+      <img
+        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg"
+        alt="dog"
+        class="card__picture"
+      />
+      <div class="card__main-info">
+        <h2 class="card__title">Кинологическое направление</h2>
+        <p class="card__description">
+          Поисково-спасательная работа, следовая работа, а так же поиск
+          тел погибших с помощью собак Поисково-спасательная работа, следовая
+          работа, а так же поиск тел погибших с помощью собак
+          Поисково-спасательная работа, следовая работа, а так же поиск
+          тел погибших с помощью собак
+        </p>
       </div>
-      <button class="button button_continue" type="button">Продолжить</button>
+      <div class="card__additional-info">
+        <div class="card__time-wrapper">
+          <div class="card__time-item">
+            <span class="icon icon_book"></span>
+            144 занятия
+          </div>
+          <div class="card__time-item">
+            <span class="icon icon_clock"></span>
+            144 ч
+          </div>
+        </div>
+        <button class="button button_continue" type="button">Продолжить</button>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 
+  <div class="form-container">
+    <h2 class="form-container__title">Личные данные</h2>
+    <form name="user-info" class="form user-info-form">
+      <div class="user-info-form__fields">
+        <label for="user-name">ФИО</label>
+        <input
+          id="user-name"
+          name="user-name"
+          type="text"
+          class="user-info-form__field"
+          placeholder="ФИО пользователя"
+          value="Иванова Анна Сидоровна"
+          required
+        />
+        <label for="date-of-birth">Дата рождения</label>
+        <input
+          id="date-of-birth"
+          name="date-of-birth"
+          type="date"
+          class="user-info-form__field"
+          placeholder="Дата рождения"
+          value="01.01.1990"
+          required
+        />
+        <label for="location">Географический регион</label>
+        <input
+          id="location"
+          name="location"
+          type="search"
+          class="user-info-form__field"
+          placeholder="Географический регион"
+          value="г. Санкт-Петербург"
+          required
+        />
+
+        <label for="forum-name">Позывной на форуме</label>
+        <input
+          id="forum-name"
+          name="forum-name"
+          type="text"
+          class="user-info-form__field"
+          placeholder="Позывной на форуме"
+          value="Белка"
+          required
+        />
+
+        <label for="avatar-image">Фото</label>
+        <input
+          id="avatar-image"
+          name="upload-file"
+          type="file"
+          accept="image/jpeg"
+          class="user-info-form__field"
+          placeholder="Фото пользователя"
+          value="Выберите файл"
+          required
+        />
+
+        <button type="submit" class="user-info-form__button-save">
+          Сохранить
+        </button>
+      </div>
+    </form>
+  </div>
 </html>
