@@ -1,10 +1,12 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../vendor/lizaicons.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_signup/button_signup.css);
 @import url(../blocks/button/_disabled/button_disabled.css);
 @import url(../blocks/button/_continue/button_continue.css);
 @import url(../blocks/card/card.css);
-@import url(../blocks/card/_description/card__description.css);
+@import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/__wrapper/card__wrapper.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__time-wrapper/card__time-wrapper.css);
