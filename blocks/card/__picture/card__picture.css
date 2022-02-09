@@ -1,0 +1,6 @@
+.card__picture {
+  width: 200px;
+  border-radius: 16px;
+  object-fit: cover;
+  margin: -32px 24px -32px -32px;
+}
