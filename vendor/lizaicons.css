@@ -16,9 +16,9 @@
 
 .icon-book::before {
   content: "\e900";
-  font-size: 24px;
-  vertical-align: top;
-  margin-right: 8px;
+  font-size: 20px;
+  vertical-align: text-top;
+  margin-right: 7px;
 }
 .icon-checked_box::before {
   content: "\e901";
@@ -28,9 +28,9 @@
 }
 .icon-clock::before {
   content: "\e903";
-  font-size: 24px;
-  vertical-align: top;
-  margin-right: 8px;
+  font-size: 20px;
+  vertical-align: text-top;
+  margin-right: 7px;
 }
 .icon-courses::before {
   content: "\e904";
