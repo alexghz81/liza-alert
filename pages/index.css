@@ -3,7 +3,6 @@
 @import url(../blocks/button/_signup/button_signup.css);
 @import url(../blocks/button/_disabled/button_disabled.css);
 @import url(../blocks/button/_continue/button_continue.css);
-
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_description/card__description.css);
 @import url(../blocks/card/__wrapper/card__wrapper.css);
@@ -14,3 +13,5 @@
 @import url(../blocks/card/__main-info/card__main-info.css);
 @import url(../blocks/card/__additional-info/card__additional-info.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/content-wrapper/content-wrapper.css);
+
