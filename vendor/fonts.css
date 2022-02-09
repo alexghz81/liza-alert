@@ -1,0 +1,28 @@
+@font-face {
+  src: url("./fonts/Golos-Text_Regular.woff") format("woff"),
+  url("./fonts/Golos-Text_Regular.woff2") format("woff2");
+  font-family: "Golos";
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  src: url("./fonts/Golos-Text_Medium.woff") format("woff"),
+  url("./fonts/Golos-Text_Medium.woff2") format("woff2");
+  font-family: "Golos";
+  font-weight: 500;
+}
+
+@font-face {
+  src: url("./fonts/Golos-Text_Bold.woff") format("woff"),
+  url("./fonts/Golos-Text_Bold.woff2") format("woff2");
+  font-family: "Golos";
+  font-weight: bold;
+}
+
+@font-face {
+  src: url("./fonts/lizaicons.woff") format("woff");
+  font-family: "Lizaicons";
+  font-weight: normal;
+}

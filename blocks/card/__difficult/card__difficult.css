@@ -1,0 +1,9 @@
+.card__difficult {
+  margin: 2px 0 25px;
+  background-color: #e6e7eb;
+  font-family: Golos;
+  border-radius: 16px;
+  padding: 0 8px;
+  font-size: 18px;
+  width: fit-content;
+}
