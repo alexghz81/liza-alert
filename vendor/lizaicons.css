@@ -34,6 +34,8 @@
 }
 .icon-courses::before {
   content: "\e904";
+  font-size: 20px;
+  vertical-align: text-top;
 }
 .icon-down_arrow::before {
   content: "\e905";
