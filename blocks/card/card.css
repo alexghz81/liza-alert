@@ -1,0 +1,8 @@
+.card {
+  color: #212329;
+  width: 984px;
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
