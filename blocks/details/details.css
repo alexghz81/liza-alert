@@ -1,0 +1,8 @@
+/*убрали настройки по умолчанию стрелка у аккардиона*/
+details > summary {
+  list-style: none;
+}
+
+details > summary::marker {
+  display: none;
+}
