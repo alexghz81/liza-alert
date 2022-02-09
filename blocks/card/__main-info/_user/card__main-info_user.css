@@ -1,0 +1,6 @@
+.card__main-info_user {
+  display: grid;
+  grid-template-columns: 20px auto;
+  align-items: center;
+  gap: 16px 10px;
+}
