@@ -1,8 +1,6 @@
 .card_user {
-  color: #212329;
   max-width: 312px;
   min-height: 520px;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
 }

@@ -1,3 +1,8 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../vendor/lizaicons.css);
+
+@import url(../blocks/page/page.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_user/card_user.css);
 @import url(../blocks/content-wrapper/content-wrapper.css);
@@ -5,3 +10,8 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__title/_user/card__title_user.css);
 @import url(../blocks/card/__main-info/_user/card__main-info_user.css);
+@import url(../blocks/user-title/user-title.css);
+@import url(../blocks/icon-user/icon-user.css);
+@import url(../blocks/icon-exit/icon-exit.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_exit-account/button_exit-account.css);

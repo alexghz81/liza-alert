@@ -1,0 +1,11 @@
+.button_exit-account {
+  background-color: #fff;
+  color: #ff6600;
+  margin-top: 32px;
+  width: 248px;
+  border: 1.2px solid #e6e7eb;
+}
+
+.button_exit-account:hover {
+  border-color: #ff6600;
+}
