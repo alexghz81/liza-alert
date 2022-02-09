@@ -1,0 +1,6 @@
+.card__additional-info {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  justify-content: space-between;
+}
