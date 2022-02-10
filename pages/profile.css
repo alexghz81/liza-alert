@@ -15,3 +15,6 @@
 @import url(../blocks/icon-exit/icon-exit.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_exit-account/button_exit-account.css);
+@import url(../blocks/user-data-description/user-data-description.css);
+@import url(../blocks/user-data-description/__text/user-data-description__text.css);
+@import url(../blocks/foto-requirements/foto-requirements.css);
