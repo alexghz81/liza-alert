@@ -15,3 +15,5 @@
 @import url(../blocks/icon-exit/icon-exit.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_exit-account/button_exit-account.css);
+@import url(../blocks/form-container/form-container.css);
+@import url(../blocks/form-container/__title/form-container__title.css);

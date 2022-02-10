@@ -1,0 +1,9 @@
+.form-container {
+    background: #ffffff;
+    box-shadow: 0 0 4px rgb(231 232 235 / 60%), 0 4px 16px rgb(231 232 235 / 60%);
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 648px;
+    display: flex;
+    flex-direction: column;
+}
