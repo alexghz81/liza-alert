@@ -51,54 +51,54 @@
         Выйти из аккаунта
       </button>
     </div>
-    <form class="form-container" name="personalData">
+    <form class="form-container personal-data" name="personalData">
       <h2 class="form-container__title">Личные данные</h2>
-      <div class="input">
-        <label class="input__title" for="name">ФИО</label>
-        <input class="input__field" type="text" name="fullName" id="name" placeholder="Введите ФИО" required>
-        <span class="input__icon icon-edit"></span>
+      <div class="personal-data-input">
+        <label class="personal-data-input__title" for="name">ФИО</label>
+        <input class="personal-data-input__field" type="text" name="fullName" id="name" placeholder="Введите ФИО" required>
+        <span class="personal-data-input__icon icon-edit"></span>
       </div>
-      <div class="input">
-        <label class="input__title" for="date">Дата рождения</label>
-        <input class="input__field input__field_date" type="date" name="date" id="date">
-        <span class="input__icon icon icon-edit"></span>
+      <div class="personal-data-input">
+        <label class="personal-data-input__title" for="date">Дата рождения</label>
+        <input class="personal-data-input__field personal-data-input__field_date" type="date" name="date" id="date">
+        <span class="personal-data-input__icon icon icon-edit"></span>
       </div>
-      <div class="input">
-        <label class="input__title" for="regionName">Географический регион</label>
-        <input class="input__field" type="text" name="regionName" id="region" placeholder="Введите свой город" required>
-        <span class="input__icon icon-edit"></span>
+      <div class="personal-data-input">
+        <label class="personal-data-input__title" for="regionName">Географический регион</label>
+        <input class="personal-data-input__field" type="text" name="regionName" id="region" placeholder="Введите свой город" required>
+        <span class="personal-data-input__icon icon-edit"></span>
       </div>
-      <div class="input">
-        <label class="input__title" for="nickname">Позывной на форуме</label>
-        <input class="input__field" type="text" name="nickname" id="nickname" placeholder="Введите свой никнейм"
+      <div class="personal-data-input">
+        <label class="personal-data-input__title" for="nickname">Позывной на форуме</label>
+        <input class="personal-data-input__field" type="text" name="nickname" id="nickname" placeholder="Введите свой никнейм"
           required>
-        <span class="input__icon icon-edit"></span>
+        <span class="personal-data-input__icon icon-edit"></span>
       </div>
-      <div class="input">
-        <label class="input__title" for="photo">Фото</label>
-        <input class="input__field input__field_file" type="file" name="fullName" id="photo" required>
-        <span class="input__icon icon-clip"></span>
+      <div class="personal-data-input">
+        <label class="personal-data-input__title" for="photo">Фото</label>
+        <input class="personal-data-input__field personal-data-input__field_file" type="file" name="fullName" id="photo" required>
+        <span class="personal-data-input__icon icon-clip"></span>
       </div>
-      <button class="form-container__button button button_disabled" type="submit">Сохранить изменения</button>
+      <button class="personal-data-button button button_disabled" type="submit">Сохранить изменения</button>
     </form>
-    <form class="form-container">
+    <form class="form-container account">
       <h2 class="form-container__title">Аккаунт</h2>
-      <div class="input">
-        <label class="input__title" for="tel">Номер телефона</label>
-        <input class="input__field" type="tel" name="telephone" id="tel" placeholder="Введите номер телефон" required>
+      <div class="account-input">
+        <label class="account-input__title" for="tel">Номер телефона</label>
+        <input class="account-input__field" type="tel" name="telephone" id="tel" placeholder="Введите номер телефон" required>
       </div>
-      <div class="input">
-        <label class="input__title" for="email">Email</label>
-        <input class="input__field" type="email" name="fullEmail" id="email" required>
-        <span class="input__icon icon-edit"></span>
+      <div class="account-input">
+        <label class="account-input__title" for="email">Email</label>
+        <input class="account-input__field" type="email" name="fullEmail" id="email" required>
+        <span class="account-input__icon icon-edit"></span>
       </div>
-      <div class="input">
-        <label class="input__title" for="pass">Пароль</label>
-        <input class="input__field input__field_password" type="password" name="password" placeholder="Введите пароль"
+      <div class="account-input">
+        <label class="account-input__title" for="pass">Пароль</label>
+        <input class="account-input__field account-input__field_password" type="password" name="password" placeholder="Введите пароль"
           id="pass" required>
-        <span class="input__icon icon-edit"></span>
+        <span class="account-input__icon icon-edit"></span>
       </div>
-      <button class="form-container__button button button_disabled" type="submit">Сохранить изменения</button>
+      <button class="account-button button button_disabled" type="submit">Сохранить изменения</button>
     </form>
     <div class="user-data-description">
       <p class="user-data-description__text">
