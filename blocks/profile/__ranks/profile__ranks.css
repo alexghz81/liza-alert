@@ -1,4 +1,4 @@
-.user-info-card__ranks {
+.profile__ranks {
     display: grid;
     grid-template-columns: 20px auto;
     align-items: center;
