@@ -17,10 +17,23 @@
 @import url(../blocks/card/__difficult/card__difficult.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content-wrapper/content-wrapper.css);
+<<<<<<< Updated upstream
 @import url(../blocks/filtrs/filtrs.css);
 @import url(../blocks/filtrs/__subtitle/filtrs__subtitle.css);
 @import url(../blocks/checkbox/checkbox.css);
 @import url(../blocks/details/details.css);
+=======
+@import url(../blocks/filters/filters.css);
+@import url(../blocks/filters/__title/filters__title.css);
+@import url(../blocks/filters/__subtitle/filters__subtitle.css);
+@import url(../blocks/filters/__block/filters__block.css);
+@import url(../blocks/filters/__info/filters__info.css);
+@import url(../blocks/filters/__text/filter__text.css);
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox/_active/checkbox_active.css);
+@import url(../blocks/checkbox/__input/checkbox__input.css);
+@import url(../blocks/checkbox/__text/checkbox__text.css);
+>>>>>>> Stashed changes
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__text/header__text.css);

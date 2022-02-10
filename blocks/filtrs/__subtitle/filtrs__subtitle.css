@@ -1,4 +1,10 @@
+<<<<<<< Updated upstream:blocks/filtrs/__subtitle/filtrs__subtitle.css
 .filtrs__subtitle {
+=======
+.filters__subtitle {
+  display: flex;
+>>>>>>> Stashed changes:blocks/filters/__subtitle/filters__subtitle.css
   font-size: 18px;
   line-height: 24px;
+  justify-content: space-between;
 }

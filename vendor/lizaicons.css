@@ -62,5 +62,6 @@
   content: "\e90c";
 }
 .icon-up_arrow::before {
+  font-size: 12px;
   content: "\e90d";
 }
