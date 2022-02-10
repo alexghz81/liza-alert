@@ -10,9 +10,8 @@
   <link rel="stylesheet" href="./pages/index.css"/>
 </head>
 <body class="page">
-<header>
-  <!--  <div class="container">-->
-  <div class="header__wrapper">
+<header class="header__wrapper">
+  <div class="header">
     <div class="header__logo">
       <p class="header__text">Учебная платформа</p>
     </div>
@@ -25,242 +24,244 @@
       </li>
       <li class="header__item">
         <a href="#" class="header__link">
-          <div class="icon-profile"></div>
+          <span class="icon-profile"></span>
           <p class="header__link-text">Профиль</p>
         </a>
       </li>
     </ul>
   </div>
-  <!--  </div>-->
 </header>
-<main>
+<main class="content">
   <h1 class="section-title">Курсы</h1>
   <section class="two-columns">
-  <section class="content-wrapper filtrs">
-    <h2 class="filtrs__title">Фильтры</h2>
-    <details>
-      <summary class="filtrs__subtitle">Категория</summary>
-    </details>
-    <details>
-      <summary class="filtrs__subtitle">Тематика</summary>
-    </details>
-    <details open>
-      <summary class="filtrs__subtitle">Уровень</summary>
-      <label class="checkbox">
-        <input type="checkbox" class="checkbox__input"/>Новичок
-      </label>
-      <label class="checkbox">
-        <input type="checkbox" class="checkbox__input"/>Бывалый
-      </label>
-      <label class="checkbox">
-        <input type="checkbox" class="checkbox__input"/>Профессионал
-      </label>
-    </details>
-    <details open>
-      <summary class="filtrs__subtitle">Статус</summary>
-      <label class="checkbox">
-        <input type="checkbox" class="checkbox__input"/>Не активный
-      </label>
-      <label class="checkbox">
-        <input type="checkbox" class="checkbox__input"/>Вы записаны
-      </label>
-      <label class="checkbox">
-        <input type="checkbox" class="checkbox__input"/>Активный
-      </label>
-      <label class="checkbox">
-        <input type="checkbox" class="checkbox__input"/>Пройден
-      </label>
-    </details>
-  </section>
-  <section class="cards">
-    <div class="content-wrapper card">
-      <img src="./images/dog.jpg" alt="dog" class="card__picture"/>
-      <div class="card__main-info">
-        <h2 class="card__title">Кинологическое направление</h2>
-        <p class="card__difficult">Бывалый</p>
-        <p class="card__description">
-          Поисково-спасательная работа, следовая работа, а так же поиск
-          тел погибших с помощью собак
-        </p>
-      </div>
-      <div class="card__additional-info">
-        <div class="card__time-wrapper">
-          <div class="card__time-item">
-            <span class="icon-book"></span>
-            144 занятия
-          </div>
-          <div class="card__time-item">
-            <span class="icon-clock"></span>
-            144 ч
-          </div>
+    <section class="content-wrapper filtrs">
+      <h2 class="filtrs__title">Фильтры</h2>
+      <details>
+        <summary class="filtrs__subtitle">Категория</summary>
+      </details>
+      <details>
+        <summary class="filtrs__subtitle">Тематика</summary>
+      </details>
+      <details open>
+        <summary class="filtrs__subtitle">Уровень</summary>
+        <label class="checkbox">
+          <input type="checkbox" class="checkbox__input"/>Новичок
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" class="checkbox__input"/>Бывалый
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" class="checkbox__input"/>Профессионал
+        </label>
+      </details>
+      <details open>
+        <summary class="filtrs__subtitle">Статус</summary>
+        <label class="checkbox">
+          <input type="checkbox" class="checkbox__input"/>Не активный
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" class="checkbox__input"/>Вы записаны
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" class="checkbox__input"/>Активный
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" class="checkbox__input"/>Пройден
+        </label>
+      </details>
+    </section>
+    <section class="cards">
+      <div class="content-wrapper card">
+        <img src="./images/dog.jpg" alt="dog" class="card__picture"/>
+        <div class="card__main-info">
+          <h2 class="card__title">Кинологическое направление</h2>
+          <p class="card__difficult">Бывалый</p>
+          <p class="card__description">
+            Поисково-спасательная работа, следовая работа, а так же поиск
+            тел погибших с помощью собак
+          </p>
         </div>
-        <button class="button button_continue" type="button">Продолжить</button>
-      </div>
-    </div>
-    <div class="content-wrapper card">
-      <img src="./images/onduty.jpg" alt="onduty" class="card__picture"/>
-      <div class="card__main-info">
-        <h2 class="card__title">Оперативные дежурные</h2>
-        <p class="card__difficult">Профессионал</p>
-        <p class="card__description">
-          Оперативное реагирование, контроль поступающих заявок и звонков, распределение задач, помощь в решении
-          вопросов,
-          удалённое ...
-        </p>
-      </div>
-      <div class="card__additional-info">
-        <div class="card__time-wrapper">
-          <div class="card__time-item">
-            <span class="icon-book"></span>
-            144 занятия
+        <div class="card__additional-info">
+          <div class="card__time-wrapper">
+            <div class="card__time-item">
+              <span class="icon-book"></span>
+              144 занятия
+            </div>
+            <div class="card__time-item">
+              <span class="icon-clock"></span>
+              144 ч
+            </div>
           </div>
-          <div class="card__time-item">
-            <span class="icon-clock"></span>
-            144 ч
-          </div>
+          <button class="button button_continue" type="button">Продолжить</button>
         </div>
-        <button class="button button_signup" type="button">Записаться</button>
       </div>
-    </div>
-    <div class="content-wrapper card">
-      <img src="./images/dron.jpg" alt="drone" class="card__picture"/>
-      <div class="card__main-info">
-        <h2 class="card__title">Беспилотные летательные аппараты</h2>
-        <p class="card__difficult">Бывалый</p>
-        <p class="card__description">
-          Применение БПЛА в поиске людей, а так же передача полученной с помощью техники информации спасательным службам
-        </p>
-      </div>
-      <div class="card__additional-info">
-        <div class="card__time-wrapper">
-          <div class="card__time-item">
-            <span class="icon-book"></span>
-            144 занятия
-          </div>
-          <div class="card__time-item">
-            <span class="icon-clock"></span>
-            144 ч
-          </div>
+      <div class="content-wrapper card">
+        <img src="./images/onduty.jpg" alt="onduty" class="card__picture"/>
+        <div class="card__main-info">
+          <h2 class="card__title">Оперативные дежурные</h2>
+          <p class="card__difficult">Профессионал</p>
+          <p class="card__description">
+            Оперативное реагирование, контроль поступающих заявок и звонков, распределение задач, помощь в решении
+            вопросов,
+            удалённое ...
+          </p>
         </div>
-        <button class="button button_signup" type="button">Записаться</button>
-      </div>
-    </div>
-    <div class="content-wrapper card">
-      <img src="./images/first-aid.jpg" alt="first-aid" class="card__picture"/>
-      <div class="card__main-info">
-        <h2 class="card__title">Первая помощь</h2>
-        <p class="card__difficult">Бывалый</p>
-        <p class="card__description">
-          Основы оказания первой помощи на поиске, юридические аспекты, базовые алгоритмы, разбор ошибок при оказания помощи на поиске
-        </p>
-      </div>
-      <div class="card__additional-info">
-        <div class="card__time-wrapper">
-          <div class="card__time-item">
-            <span class="icon-book"></span>
-            144 занятия
+        <div class="card__additional-info">
+          <div class="card__time-wrapper">
+            <div class="card__time-item">
+              <span class="icon-book"></span>
+              144 занятия
+            </div>
+            <div class="card__time-item">
+              <span class="icon-clock"></span>
+              144 ч
+            </div>
           </div>
-          <div class="card__time-item">
-            <span class="icon-clock"></span>
-            144 ч
-          </div>
+          <button class="button button_signup" type="button">Записаться</button>
         </div>
-        <button class="button button_signup" type="button">Записаться</button>
       </div>
-    </div>
-    <div class="content-wrapper card">
-      <img src="./images/infogroup.jpg" alt="infogroup" class="card__picture"/>
-      <div class="card__main-info">
-        <h2 class="card__title">Инфогруппа</h2>
-        <p class="card__difficult">Новичок</p>
-        <p class="card__description">
-          Создание ориентировок, заказ карт, связь через мини АТС, обеспечение поиска
-        </p>
-      </div>
-      <div class="card__additional-info">
-        <div class="card__time-wrapper">
-          <div class="card__time-item">
-            <span class="icon-book"></span>
-            144 занятия
-          </div>
-          <div class="card__time-item">
-            <span class="icon-clock"></span>
-            144 ч
-          </div>
+      <div class="content-wrapper card">
+        <img src="./images/dron.jpg" alt="drone" class="card__picture"/>
+        <div class="card__main-info">
+          <h2 class="card__title">Беспилотные летательные аппараты</h2>
+          <p class="card__difficult">Бывалый</p>
+          <p class="card__description">
+            Применение БПЛА в поиске людей, а так же передача полученной с помощью техники информации спасательным
+            службам
+          </p>
         </div>
-        <button class="button button_disabled" type="button">Пройден</button>
-      </div>
-    </div>
-    <div class="content-wrapper card">
-      <img src="./images/8-800.jpg" alt="8-800" class="card__picture"/>
-      <div class="card__main-info">
-        <h2 class="card__title">Операторы 8-800</h2>
-        <p class="card__difficult">Новичок</p>
-        <p class="card__description">
-          Приём заявок на поиск людей с последующей передачей информации инфоргам
-        </p>
-      </div>
-      <div class="card__additional-info">
-        <div class="card__time-wrapper">
-          <div class="card__time-item">
-            <span class="icon-book"></span>
-            144 занятия
+        <div class="card__additional-info">
+          <div class="card__time-wrapper">
+            <div class="card__time-item">
+              <span class="icon-book"></span>
+              144 занятия
+            </div>
+            <div class="card__time-item">
+              <span class="icon-clock"></span>
+              144 ч
+            </div>
           </div>
-          <div class="card__time-item">
-            <span class="icon-clock"></span>
-            144 ч
-          </div>
+          <button class="button button_signup" type="button">Записаться</button>
         </div>
-        <button class="button button_signup" type="button">Записаться</button>
       </div>
-    </div>
-    <div class="content-wrapper card">
-      <img src="./images/short-calls.jpg" alt="short_calls" class="card__picture"/>
-      <div class="card__main-info">
-        <h2 class="card__title">Группа коротких прозвонов</h2>
-        <p class="card__difficult">Новичок</p>
-        <p class="card__description">
-          Прозвон больниц, ОВД, различных ведомств, иногда свидетелей и возможных свидетелей
-        </p>
-      </div>
-      <div class="card__additional-info">
-        <div class="card__time-wrapper">
-          <div class="card__time-item">
-            <span class="icon-book"></span>
-            144 занятия
-          </div>
-          <div class="card__time-item">
-            <span class="icon-clock"></span>
-            144 ч
-          </div>
+      <div class="content-wrapper card">
+        <img src="./images/first-aid.jpg" alt="first-aid" class="card__picture"/>
+        <div class="card__main-info">
+          <h2 class="card__title">Первая помощь</h2>
+          <p class="card__difficult">Бывалый</p>
+          <p class="card__description">
+            Основы оказания первой помощи на поиске, юридические аспекты, базовые алгоритмы, разбор ошибок при оказания
+            помощи на поиске
+          </p>
         </div>
-        <button class="button button_signup" type="button">Записаться</button>
-      </div>
-    </div>
-    <div class="content-wrapper card">
-      <img src="./images/juniors.jpg" alt="juniors" class="card__picture"/>
-      <div class="card__main-info">
-        <h2 class="card__title">Новичковая</h2>
-        <p class="card__difficult">Новичок</p>
-        <p class="card__description">
-          Короткое описание курса. Поиск людей в лесу и в городе. Все поисковые мероприятия организуются силами добровольцев «ЛизаАлер…
-        </p>
-      </div>
-      <div class="card__additional-info">
-        <div class="card__time-wrapper">
-          <div class="card__time-item">
-            <span class="icon-book"></span>
-            144 занятия
+        <div class="card__additional-info">
+          <div class="card__time-wrapper">
+            <div class="card__time-item">
+              <span class="icon-book"></span>
+              144 занятия
+            </div>
+            <div class="card__time-item">
+              <span class="icon-clock"></span>
+              144 ч
+            </div>
           </div>
-          <div class="card__time-item">
-            <span class="icon-clock"></span>
-            144 ч
-          </div>
+          <button class="button button_signup" type="button">Записаться</button>
         </div>
-        <button class="button button_disabled" type="button">Пройден</button>
       </div>
-    </div>
-  </section>
+      <div class="content-wrapper card">
+        <img src="./images/infogroup.jpg" alt="infogroup" class="card__picture"/>
+        <div class="card__main-info">
+          <h2 class="card__title">Инфогруппа</h2>
+          <p class="card__difficult">Новичок</p>
+          <p class="card__description">
+            Создание ориентировок, заказ карт, связь через мини АТС, обеспечение поиска
+          </p>
+        </div>
+        <div class="card__additional-info">
+          <div class="card__time-wrapper">
+            <div class="card__time-item">
+              <span class="icon-book"></span>
+              144 занятия
+            </div>
+            <div class="card__time-item">
+              <span class="icon-clock"></span>
+              144 ч
+            </div>
+          </div>
+          <button class="button button_disabled" type="button">Пройден</button>
+        </div>
+      </div>
+      <div class="content-wrapper card">
+        <img src="./images/8-800.jpg" alt="8-800" class="card__picture"/>
+        <div class="card__main-info">
+          <h2 class="card__title">Операторы 8-800</h2>
+          <p class="card__difficult">Новичок</p>
+          <p class="card__description">
+            Приём заявок на поиск людей с последующей передачей информации инфоргам
+          </p>
+        </div>
+        <div class="card__additional-info">
+          <div class="card__time-wrapper">
+            <div class="card__time-item">
+              <span class="icon-book"></span>
+              144 занятия
+            </div>
+            <div class="card__time-item">
+              <span class="icon-clock"></span>
+              144 ч
+            </div>
+          </div>
+          <button class="button button_signup" type="button">Записаться</button>
+        </div>
+      </div>
+      <div class="content-wrapper card">
+        <img src="./images/short-calls.jpg" alt="short_calls" class="card__picture"/>
+        <div class="card__main-info">
+          <h2 class="card__title">Группа коротких прозвонов</h2>
+          <p class="card__difficult">Новичок</p>
+          <p class="card__description">
+            Прозвон больниц, ОВД, различных ведомств, иногда свидетелей и возможных свидетелей
+          </p>
+        </div>
+        <div class="card__additional-info">
+          <div class="card__time-wrapper">
+            <div class="card__time-item">
+              <span class="icon-book"></span>
+              144 занятия
+            </div>
+            <div class="card__time-item">
+              <span class="icon-clock"></span>
+              144 ч
+            </div>
+          </div>
+          <button class="button button_signup" type="button">Записаться</button>
+        </div>
+      </div>
+      <div class="content-wrapper card">
+        <img src="./images/juniors.jpg" alt="juniors" class="card__picture"/>
+        <div class="card__main-info">
+          <h2 class="card__title">Новичковая</h2>
+          <p class="card__difficult">Новичок</p>
+          <p class="card__description">
+            Короткое описание курса. Поиск людей в лесу и в городе. Все поисковые мероприятия организуются силами
+            добровольцев «ЛизаАлер…
+          </p>
+        </div>
+        <div class="card__additional-info">
+          <div class="card__time-wrapper">
+            <div class="card__time-item">
+              <span class="icon-book"></span>
+              144 занятия
+            </div>
+            <div class="card__time-item">
+              <span class="icon-clock"></span>
+              144 ч
+            </div>
+          </div>
+          <button class="button button_disabled" type="button">Пройден</button>
+        </div>
+      </div>
+    </section>
   </section>
 </main>
 </body>
