@@ -3,4 +3,5 @@
   min-height: 520px;
   display: flex;
   flex-direction: column;
+  grid-row: 1/3;
 }
