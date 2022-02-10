@@ -1,7 +1,0 @@
-.card_user {
-  max-width: 312px;
-  min-height: 520px;
-  display: flex;
-  flex-direction: column;
-  grid-row: 1/3;
-}
