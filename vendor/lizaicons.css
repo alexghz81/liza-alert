@@ -16,9 +16,9 @@
 
 .icon-book::before {
   content: "\e900";
-  font-size: 20px;
-  vertical-align: text-top;
-  margin-right: 7px;
+  font-size: 22px;
+  vertical-align: top;
+  margin-right: 5px;
 }
 .icon-checked_box::before {
   content: "\e901";
