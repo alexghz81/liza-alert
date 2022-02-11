@@ -11,88 +11,97 @@
   </head>
 
   <body class="page">
-  <header class="header__wrapper">
-    <div class="header">
-      <div class="header__logo">
-        <p class="header__text">Учебная платформа</p>
-      </div>
-      <ul class="header__navigation">
-        <li class="header__item">
-          <a href="./index.html" class="header__link">
-            <span class="icon-courses"></span>
-            <p class="header__link-text">Курсы</p>
-          </a>
-        </li>
-        <li class="header__item">
-          <a href="./profile.html" class="header__link  header__link_active">
-            <span class="icon-profile"></span>
-            <p class="header__link-text">Профиль</p>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </header>
-    <main class="content">
-      <div class="content-wrapper card card_user">
-        <img
-          src="./images/avatar-img.jpg"
-          alt="изображение аватар пользователя"
-          class="card__picture card__picture_user"
-        />
-        <h2 class="card__title card__title_user">Иванова Анна Сидоровна</h2>
-        <div class="card__main-info card__main-info_user">
-          <span class="icon-professional icon-user"></span>
-          <h3 class="user-title" id="rank">Профессионал</h3>
-          <span class="icon-medal icon-user"></span>
-          <h3 class="user-title" id="role">Картограф</h3>
-          <span class="icon-courses icon-user"></span>
-          <h3 class="user-title" id="courses">Пройдено 2 курса</h3>
+    <header class="header__wrapper">
+      <div class="header">
+        <div class="header__logo">
+          <p class="header__text">Учебная платформа</p>
         </div>
-        <button class="button button_exit-account" type="button">
-          <span class="icon-exit"></span>
-          Выйти из аккаунта
-        </button>
-      </div>
-      <div class="form-container">
-        <h2 class="form-container__title">Личные данные</h2>
-      </div>
-      <div class="form-container">
-        <h2 class="form-container__title">Аккаунт</h2>
-      <div class="user-data-description">
-        <p class="user-data-description__text">
-          Просьба указывать настоящие ФИО, это нужно для получения сертификатов
-        </p>
-        <p class="user-data-description__text">
-          Географический регион влияет на доступность некоторых курсов и занятий
-        </p>
-        <p class="user-data-description__text">
-          Если вы не хотите, чтобы другие пользователи видели ваши ФИО, укажите
-          позывной на форуме — он будет отображаться вместо ваших настоящих
-          данных
-        </p>
-        <p class="user-data-description__text">
-          Требования к загружаемому фото:
-        </p>
-        <ul class="foto-requirements">
-          <li class="foto-requirements__item">разрешение не менее 640x640px</li>
-          <li class="foto-requirements__item">размер не более 3 МБ</li>
+        <ul class="header__navigation">
+          <li class="header__item">
+            <a href="./index.html" class="header__link">
+              <span class="icon-courses"></span>
+              <p class="header__link-text">Курсы</p>
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="./profile.html" class="header__link header__link_active">
+              <span class="icon-profile"></span>
+              <p class="header__link-text">Профиль</p>
+            </a>
+          </li>
         </ul>
       </div>
-      <div class="user-data-description">
-        <p class="user-data-description__text">
-          Номер телефона используется как уникальный идентификатор пользователя,
-          поэтому его нельзя поменять вручную
-        </p>
+    </header>
+    <main class="content">
+      <h1 class="section-title">Профиль</h1>
+      <section class="profile-page-container">
+        <div class="content-wrapper profile">
+          <img
+            src="./images/avatar-img.jpg"
+            alt="изображение аватар пользователя"
+            class="profile__photo"
+          />
+          <h2 class="profile__title">Иванова Анна Сидоровна</h2>
+          <div class="profile__ranks">
+            <span class="icon-professional icon-user"></span>
+            <h3 class="user-title" id="rank">Профессионал</h3>
+            <span class="icon-medal icon-user"></span>
+            <h3 class="user-title" id="role">Картограф</h3>
+            <span class="icon-courses icon-user"></span>
+            <h3 class="user-title" id="courses">Пройдено 2 курса</h3>
+          </div>
+          <button class="button button_exit-account" type="button">
+            <span class="icon-exit"></span>
+            Выйти из аккаунта
+          </button>
+        </div>
+        <div class="form-container">
+          <h2 class="form-container__title">Личные данные</h2>
+        </div>
+        <div class="user-data-description">
+          <p class="user-data-description__text">
+            Просьба указывать настоящие ФИО, это нужно для получения
+            сертификатов
+          </p>
+          <p class="user-data-description__text">
+            Географический регион влияет на доступность некоторых курсов
+            и занятий
+          </p>
+          <p class="user-data-description__text">
+            Если вы не хотите, чтобы другие пользователи видели ваши ФИО,
+            укажите позывной на форуме — он будет отображаться вместо ваших
+            настоящих данных
+          </p>
+          <p class="user-data-description__text">
+            Требования к загружаемому фото:
+          </p>
+          <ul class="foto-requirements">
+            <li class="foto-requirements__item">
+              разрешение не менее 640x640px
+            </li>
+            <li class="foto-requirements__item">размер не более 3 МБ</li>
+          </ul>
+        </div>
+        <div class="form-container">
+          <h2 class="form-container__title">Аккаунт</h2>
+        </div>
 
-        <p class="user-data-description__text">
-          Если по какой-то причине у вас нет доступа к номеру телефона
-          на который вы регистрировали аккаунт, напишите в поддержку
-        </p>
+        <div class="user-data-description">
+          <p class="user-data-description__text">
+            Номер телефона используется как уникальный идентификатор
+            пользователя, поэтому его нельзя поменять вручную
+          </p>
 
-        <p class="user-data-description__text">
-          Email нужен для восстановления пароля
-        </p>
-      </div>
+          <p class="user-data-description__text">
+            Если по какой-то причине у вас нет доступа к номеру телефона
+            на который вы регистрировали аккаунт, напишите в поддержку
+          </p>
+
+          <p class="user-data-description__text">
+            Email нужен для восстановления пароля
+          </p>
+        </div>
+      </section>
     </main>
   </body>
 </html>
