@@ -20,10 +20,6 @@
 @import url(../blocks/form-container/form-container.css);
 @import url(../blocks/form-container/__title/form-container__title.css);
 @import url(../blocks/user-data-description/user-data-description.css);
-/* @import url(../blocks/user-info-card/user-info-card.css);
-@import url(../blocks/user-info-card/__ranks/user-info-card__ranks.css);
-@import url(../blocks/user-info-card/__title/user-info-card__title.css);
-@import url(../blocks/user-info-card/__picture/user-info-card__picture.css); */
 @import url(../blocks/user-data-description/__text/user-data-description__text.css);
 @import url(../blocks/foto-requirements/foto-requirements.css);
 @import url(../blocks/content/content.css);
