@@ -11,13 +11,19 @@
   display: block;
 }
 
-.filters__category-checkbox + .filters__category-label::before{
+.filters__category-checkbox ~ .filters__category-label::after{
   content: '';
+  width: 12px;
+  height: 8px;
   background-image: url("../../../images/icons/down_arrow.svg");
   display: inline-flex;
   background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform .2s;
 }
 
-.filters__category-checkbox:checked ~ .filters__pseudo-checkbox {
-  display: block;
+.filters__category-checkbox:checked ~ .filters__category-label::after{
+  content: '';
+  transition: transform .2s;
+  transform: rotate(180deg);
 }
