@@ -1,0 +1,12 @@
+.filters__category-label{
+  font-family: Golos, serif;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  width: calc(100% - 12px);
+}
+
+.filters__category-label:hover{
+  color: #ff6600;
+  transition: color .1s ease-out;
+}

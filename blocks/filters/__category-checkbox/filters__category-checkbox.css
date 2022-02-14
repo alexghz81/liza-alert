@@ -1,0 +1,23 @@
+.filters__category-checkbox {
+  appearance: none;
+  position: absolute;
+}
+
+.filters__category-checkbox:checked ~ .filters__category-label{
+  margin-bottom: 35px;
+}
+
+.filters__category-checkbox:checked ~ .filters__label {
+  display: block;
+}
+
+.filters__category-checkbox + .filters__category-label::before{
+  content: '';
+  background-image: url("../../../images/icons/down_arrow.svg");
+  display: inline-flex;
+  background-size: contain;
+}
+
+.filters__category-checkbox:checked ~ .filters__pseudo-checkbox {
+  display: block;
+}

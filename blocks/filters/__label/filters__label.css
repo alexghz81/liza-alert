@@ -1,0 +1,19 @@
+.filters__label{
+  font-family: Golos, serif;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  display: none;
+  width: calc(100% - 35px);
+  /*margin-left: 11px;*/
+
+}
+
+.filters__label:hover{
+  color: #f06000;
+  transition: color .1s ease-out;
+}
+
+.filters__label:first-child{
+  margin-top: 35px;
+}

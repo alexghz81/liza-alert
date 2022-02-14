@@ -1,7 +1,7 @@
 .filters {
   display: flex;
   flex-direction: column;
-  align-content: stretch;
+  /*align-content: stretch;*/
   grid-column: 1 / 2;
   font-family: Golos;
   height: fit-content;

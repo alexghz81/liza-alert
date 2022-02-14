@@ -1,0 +1,13 @@
+.filters__pseudo-checkbox {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #212329;
+  border-radius: 4px;
+  display: none;
+  margin: 0 0 20px 2px;
+  cursor: pointer;
+}
+
+.filters__pseudo-checkbox:hover {
+  border-color: #f06000;
+}
