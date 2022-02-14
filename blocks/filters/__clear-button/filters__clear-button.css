@@ -1,0 +1,16 @@
+.filters__clear-button {
+  border: 0;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  font-family: Golos, serif;
+  width: fit-content;
+  font-weight: 500;
+  margin-bottom: 32px;
+  font-size: 18px;
+  padding: 0;
+  visibility: hidden;
+}
+
+.filters__clear-button:hover {
+  color: #ff6600;
+}

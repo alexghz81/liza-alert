@@ -29,3 +29,25 @@
 @import url(../blocks/profile/__photo/profile__photo.css);
 @import url(../blocks/profile/__ranks/profile__ranks.css);
 @import url(../blocks/profile/__title/profile__title.css);
+
+@import url(../blocks/personal-data-input/personal-data-input.css);
+@import url(../blocks/personal-data-input/__title/personal-data-input__title.css);
+@import url(../blocks/personal-data-input/__field/personal-data-input__field.css);
+@import url(../blocks/personal-data-input/__icon/personal-data-input__icon.css);
+@import url(../blocks/personal-data-input/__field/_date/personal-data-input__field_date.css);
+@import url(../blocks/personal-data-input/__field/_file/personal-data-input__field_file.css);
+
+
+@import url(../blocks/account-input/account-input.css);
+@import url(../blocks/account-input/__title/account-input__title.css);
+@import url(../blocks/account-input/__field/account-input__field.css);
+@import url(../blocks/account-input/__icon/account-input__icon.css);
+
+@import url(../blocks/personal-data-button/personal-data-button.css);
+@import url(../blocks/account-button/account-button.css);
+
+@import url(../blocks/button/_disabled/button_disabled.css);
+
+/*---------------------------------------------------------------------------*/
+
+@import url(../blocks/profile/__personals/profile__personals.css);

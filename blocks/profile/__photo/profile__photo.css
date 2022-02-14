@@ -1,7 +1,7 @@
 .profile__photo {
-    width: 200px;
+    width: 198px;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto 16px;
-    border: 1.2px solid #E6E7EB;
+    border: 1px solid #E6E7EB;
 }
