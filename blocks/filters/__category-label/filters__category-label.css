@@ -1,4 +1,4 @@
-.filters__category-label{
+.filters__category-label {
   font-family: Golos, serif;
   font-size: 18px;
   font-weight: 400;
@@ -7,9 +7,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 34px;
+  margin-bottom: 33px;
 }
 
-.filters__category-label:hover{
+.filters__category-label:hover {
   color: #ff6600;
   transition: color .1s ease-out;
 }

@@ -11,7 +11,7 @@
   display: block;
 }
 
-.filters__category-checkbox ~ .filters__category-label::after{
+.filters__category-checkbox ~ .filters__category-label::after {
   content: '';
   width: 12px;
   height: 8px;
@@ -23,7 +23,7 @@
   margin-right: 6px;
 }
 
-.filters__category-checkbox:checked ~ .filters__category-label::after{
+.filters__category-checkbox:checked ~ .filters__category-label::after {
   content: '';
   transition: transform .2s;
   transform: rotate(180deg);

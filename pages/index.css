@@ -17,13 +17,7 @@
 @import url(../blocks/card/__difficult/card__difficult.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content-wrapper/content-wrapper.css);
-@import url(../blocks/filters/filters.css);
-@import url(../blocks/filters/__title/filters__title.css);
-@import url(../blocks/filters/__subtitle/filters__subtitle.css);
-@import url(../blocks/filters/__block/filters__block.css);
-@import url(../blocks/checkbox/checkbox.css);
-@import url(../blocks/checkbox/_active/checkbox_active.css);
-@import url(../blocks/checkbox/__input/checkbox__input.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__text/header__text.css);
@@ -37,10 +31,11 @@
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/content/content.css);
 
+@import url(../blocks/filters/filters.css);
+@import url(../blocks/filters/__title/filters__title.css);
 @import url(../blocks/filters/__clear-button/filters__clear-button.css);
 @import url(../blocks/filters/__section-wrapper/filters__section-wrapper.css);
 @import url(../blocks/filters/__label/filters__label.css);
 @import url(../blocks/filters/__category-checkbox/filters__category-checkbox.css);
 @import url(../blocks/filters/__checkbox/filters__checkbox.css);
-@import url(../blocks/filters/__pseudo-checkbox/filters__pseudo-checkbox.css);
 @import url(../blocks/filters/__category-label/filters__category-label.css);

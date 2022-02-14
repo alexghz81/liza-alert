@@ -11,3 +11,7 @@
   color: #f06000;
   transition: color .1s ease-out;
 }
+
+.filters__label:last-child {
+  margin-bottom: 15px;
+}
