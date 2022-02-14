@@ -1,0 +1,23 @@
+.filters__tag{
+  padding-left: 9px;
+  padding-right: 0;
+  box-sizing: border-box;
+  margin-right: 9px;
+}
+
+.filters__tag::after{
+  /*padding-right: 5px;*/
+  margin-left: 6px;
+  content: '';
+  display: inline-flex;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../../images/icons/tag_close.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.filters__tag::after:hover {
+  opacity: .8;
+}

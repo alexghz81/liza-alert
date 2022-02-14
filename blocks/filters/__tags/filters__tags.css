@@ -1,0 +1,8 @@
+.filters__tags{
+  grid-column: 1;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: end;
+  margin-top: 30px;
+}

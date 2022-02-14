@@ -6,6 +6,7 @@
 @import url(../blocks/button/_disabled/button_disabled.css);
 @import url(../blocks/button/_continue/button_continue.css);
 @import url(../blocks/card/card.css);
+@import url(../blocks/cards/cards.css);
 @import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/__wrapper/card__wrapper.css);
 @import url(../blocks/card/__title/card__title.css);
@@ -39,3 +40,5 @@
 @import url(../blocks/filters/__category-checkbox/filters__category-checkbox.css);
 @import url(../blocks/filters/__checkbox/filters__checkbox.css);
 @import url(../blocks/filters/__category-label/filters__category-label.css);
+@import url(../blocks/filters/__tags/filters__tags.css);
+@import url(../blocks/filters/__tag/filters__tag.css);
