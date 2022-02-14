@@ -3,4 +3,5 @@
   grid-template-columns: 312px 1fr;
   margin: 0 60px;
   column-gap: 24px;
+  align-items: start;
 }
