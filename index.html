@@ -33,49 +33,49 @@
 </header>
 <main class="content">
   <h1 class="section-title">Курсы</h1>
-  <section class="two-columns">
+  <section class="two-columns" aria-label="Основное содержимое страницы">
     <div class="two-columns__aside">
-    <section class="content-wrapper filters">
-      <div class="filters__section-wrapper">
-        <h2 class="filters__title">Фильтры</h2>
-        <button type="button" class="filters__clear-button">Очистить</button>
+      <section class="content-wrapper filters">
+        <div class="filters__section-wrapper">
+          <h2 class="filters__title">Фильтры</h2>
+          <button type="button" class="filters__clear-button">Очистить</button>
+        </div>
+        <div class="filters__section-wrapper">
+          <input id="filters__category" type="checkbox" class="filters__category-checkbox">
+          <label class="filters__category-label" for="filters__category">Категория</label>
+        </div>
+        <div class="filters__section-wrapper">
+          <input id="filters__themes" type="checkbox" class="filters__category-checkbox">
+          <label class="filters__category-label" for="filters__themes">Тематика</label>
+        </div>
+        <div class="filters__section-wrapper">
+          <input id="filters__level" type="checkbox" class="filters__category-checkbox">
+          <label class="filters__category-label" for="filters__level">Уровень</label>
+          <input class="filters__checkbox" type="checkbox" id="novice">
+          <label class="filters__label" for="novice">Новичок</label>
+          <input class="filters__checkbox" type="checkbox" id="advanced">
+          <label class="filters__label" for="advanced">Бывалый</label>
+          <input class="filters__checkbox" type="checkbox" id="profi">
+          <label class="filters__label" for="profi">Профессионал</label>
+        </div>
+        <div class="filters__section-wrapper">
+          <input id="filters__status" type="checkbox" class="filters__category-checkbox">
+          <label class="filters__category-label" for="filters__status">Статус</label>
+          <input class="filters__checkbox" type="checkbox" id="not-active">
+          <label class="filters__label" for="not-active">Не активный</label>
+          <input class="filters__checkbox" type="checkbox" id="subscribed">
+          <label class="filters__label" for="subscribed">Вы записаны</label>
+          <input class="filters__checkbox" type="checkbox" id="active">
+          <label class="filters__label" for="active">Активный</label>
+          <input class="filters__checkbox" type="checkbox" id="completed">
+          <label class="filters__label" for="completed">Пройден</label>
+        </div>
+      </section>
+      <div class="filters__tags">
+        <span class="card__difficult filters__tag">Новичок</span>
+        <span class="card__difficult filters__tag">Бывалый</span>
+        <span class="card__difficult filters__tag">Профессионал</span>
       </div>
-      <div class="filters__section-wrapper">
-        <input id="filters__category" type="checkbox" class="filters__category-checkbox">
-        <label class="filters__category-label" for="filters__category">Категория</label>
-      </div>
-      <div class="filters__section-wrapper">
-        <input id="filters__themes" type="checkbox" class="filters__category-checkbox">
-        <label class="filters__category-label" for="filters__themes">Тематика</label>
-      </div>
-      <div class="filters__section-wrapper">
-        <input id="filters__level" type="checkbox" class="filters__category-checkbox">
-        <label class="filters__category-label" for="filters__level">Уровень</label>
-        <input class="filters__checkbox" type="checkbox" id="novice">
-        <label class="filters__label" for="novice">Новичок</label>
-        <input class="filters__checkbox" type="checkbox" id="advanced">
-        <label class="filters__label" for="advanced">Бывалый</label>
-        <input class="filters__checkbox" type="checkbox" id="profi">
-        <label class="filters__label" for="profi">Профессионал</label>
-      </div>
-      <div class="filters__section-wrapper">
-        <input id="filters__status" type="checkbox" class="filters__category-checkbox">
-        <label class="filters__category-label" for="filters__status">Статус</label>
-        <input class="filters__checkbox" type="checkbox" id="not-active">
-        <label class="filters__label" for="not-active">Не активный</label>
-        <input class="filters__checkbox" type="checkbox" id="subscribed">
-        <label class="filters__label" for="subscribed">Вы записаны</label>
-        <input class="filters__checkbox" type="checkbox" id="active">
-        <label class="filters__label" for="active">Активный</label>
-        <input class="filters__checkbox" type="checkbox" id="completed">
-        <label class="filters__label" for="completed">Пройден</label>
-      </div>
-    </section>
-    <div class="filters__tags">
-      <span class="card__difficult filters__tag">Новичок</span>
-      <span class="card__difficult filters__tag">Бывалый</span>
-      <span class="card__difficult filters__tag">Профессионал</span>
-    </div>
     </div>
     <section class="cards">
       <div class="content-wrapper card">
