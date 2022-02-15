@@ -5,3 +5,5 @@ const buttonsSignUp = document.querySelectorAll('.button_signup');
 const checkedTags = {};
 const saveProfileButton = document.querySelector('#profile');
 const saveAccountButton = document.querySelector('#account');
+const profileForm = document.querySelector('#profileForm');
+const accountForm = document.querySelector('#accountForm');
