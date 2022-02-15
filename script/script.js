@@ -1,9 +1,3 @@
-const resetButton = document.querySelector('.filters__clear-button');
-const tagsContainer = document.querySelector('.filters_tags');
-const checkboxContainer = document.querySelector('.filters__difficulty-list');
-
-const checkedTags = {};
-
 function clickCheckbox(e) {
   const inputCheckbox = e.target;
   if (inputCheckbox.classList.contains('filters__checkbox')) {
@@ -50,7 +44,7 @@ function removeTag(input) {
 }
 
 function renderResetButton(containerTags) {
-  containerTags && containerTags.childElementCount>0 ? showReset() : hideReset();
+  containerTags && containerTags.childElementCount > 0 ? showReset() : hideReset();
 }
 
 function showReset() {
@@ -69,5 +63,14 @@ function clickReset() {
   renderResetButton(tagsContainer);
 }
 
+function changeButtonState(button) {
+  button.target.classList.remove('button_signup');
+  button.target.classList.add('button_continue');
+  button.target.textContent = 'Продолжить';
+}
+
 checkboxContainer.addEventListener('input', clickCheckbox);
 resetButton.addEventListener('click', clickReset);
+buttonsSignUp.forEach(button => {
+  button.addEventListener('click', changeButtonState);
+});
