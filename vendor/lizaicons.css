@@ -47,15 +47,18 @@
 }
 .icon-exit::before {
   content: "\e907";
+  font-size: 21px;
 }
 .icon-filter::before {
   content: "\e908";
 }
 .icon-medal::before {
   content: "\e909";
+  font-size: 21px;
 }
 .icon-professional::before {
   content: "\e90a";
+  font-size: 21px;
 }
 .icon-profile::before {
   font-size: 20px;
