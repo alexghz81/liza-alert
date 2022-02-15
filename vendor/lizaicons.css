@@ -8,7 +8,6 @@
   text-transform: none;
   line-height: 1;
 
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -20,53 +19,66 @@
   vertical-align: top;
   margin-right: 5px;
 }
+
 .icon-checked_box::before {
   content: "\e901";
 }
+
 .icon-clip::before {
   content: "\e902";
   font-size: 21px;
 }
+
 .icon-clock::before {
   content: "\e903";
   font-size: 20px;
   vertical-align: text-top;
   margin-right: 7px;
 }
+
 .icon-courses::before {
   content: "\e904";
   font-size: 20px;
   vertical-align: text-top;
 }
+
 .icon-down_arrow::before {
   content: "\e905";
 }
+
 .icon-edit::before {
   content: "\e906";
   font-size: 21px;
 }
+
 .icon-exit::before {
   content: "\e907";
   font-size: 21px;
 }
+
 .icon-filter::before {
   content: "\e908";
 }
+
 .icon-medal::before {
   content: "\e909";
   font-size: 21px;
 }
+
 .icon-professional::before {
   content: "\e90a";
   font-size: 21px;
 }
+
 .icon-profile::before {
   font-size: 20px;
   content: "\e90b";
 }
+
 .icon-unchecked_box::before {
   content: "\e90c";
 }
+
 .icon-up_arrow::before {
   content: "\e90d";
 }
