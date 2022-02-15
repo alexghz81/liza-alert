@@ -58,3 +58,6 @@
 /*---------------------------------------------------------------------------*/
 
 @import url(../blocks/profile/__personals/profile__personals.css);
+
+@import url(../blocks/account/__password/account__password.css);
+@import url(../blocks/account/__field/_pass/account__field_pass.css);
