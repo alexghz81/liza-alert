@@ -18,5 +18,5 @@ function enableSaveAccountButton(evt) {
 
 saveProfileButton.addEventListener('click', disableSaveButton);
 saveAccountButton.addEventListener('click', disableSaveButton);
-profileForm.addEventListener('change', enableSaveProfileButton);
-accountForm.addEventListener('change', enableSaveAccountButton);
+profileForm.addEventListener('keyup', enableSaveProfileButton);
+accountForm.addEventListener('keyup', enableSaveAccountButton);
