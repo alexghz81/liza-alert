@@ -71,6 +71,7 @@ function changeButtonState(button) {
 
 checkboxContainer.addEventListener('input', clickCheckbox);
 resetButton.addEventListener('click', clickReset);
+radioContainer.addEventListener('click', showReset);
 buttonsSignUp.forEach(button => {
   button.addEventListener('click', changeButtonState);
 });
