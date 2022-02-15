@@ -1,0 +1,18 @@
+.personal__field {
+  box-sizing: border-box;
+  padding: 12px 56px 12px 16px;
+  width: 584px;
+  font-family: 'Golos', 'arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #212329;
+  border: 1px solid #E6E7EB;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.personal__field:focus {
+  outline-color: #FF6600;
+}

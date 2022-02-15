@@ -1,52 +1,55 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../vendor/lizaicons.css);
+
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__text/header__text.css);
 @import url(../blocks/header/__navigation/header__navigation.css);
 @import url(../blocks/header/__item/header__item.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__link-text/header__link-text.css);
 @import url(../blocks/header/__link/_active/header__link_active.css);
+
 @import url(../blocks/page/page.css);
-@import url(../blocks/content-wrapper/content-wrapper.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__title/profile__title.css);
+@import url(../blocks/profile/__subtitle/profile__subtitle.css);
+@import url(../blocks/profile/__wrapper/profile__wrapper.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__photo/profile__photo.css);
+@import url(../blocks/profile/__ranks/profile__ranks.css);
+@import url(../blocks/profile/__personals/profile__personals.css);
+
 @import url(../blocks/user-title/user-title.css);
 @import url(../blocks/icon-user/icon-user.css);
 @import url(../blocks/icon-exit/icon-exit.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_exit-account/button_exit-account.css);
 @import url(../blocks/form-container/form-container.css);
-@import url(../blocks/form-container/__title/form-container__title.css);
-@import url(../blocks/user-data-description/user-data-description.css);
-@import url(../blocks/user-data-description/__text/user-data-description__text.css);
+@import url(../blocks/user-description/user-description.css);
+@import url(../blocks/user-description/__text/user-description__text.css);
 @import url(../blocks/foto-requirements/foto-requirements.css);
 @import url(../blocks/content/content.css);
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/profile-page-container/profile-page-container.css);
-@import url(../blocks/profile/profile.css);
-@import url(../blocks/profile/__photo/profile__photo.css);
-@import url(../blocks/profile/__ranks/profile__ranks.css);
-@import url(../blocks/profile/__title/profile__title.css);
 
-@import url(../blocks/personal-data-input/personal-data-input.css);
-@import url(../blocks/personal-data-input/__title/personal-data-input__title.css);
-@import url(../blocks/personal-data-input/__field/personal-data-input__field.css);
-@import url(../blocks/personal-data-input/__icon/personal-data-input__icon.css);
-@import url(../blocks/personal-data-input/__field/_date/personal-data-input__field_date.css);
-@import url(../blocks/personal-data-input/__field/_file/personal-data-input__field_file.css);
+@import url(../blocks/personal/personal.css);
+@import url(../blocks/personal/__field/personal__field.css);
+@import url(../blocks/personal/__field/_date/personal__field_date.css);
+@import url(../blocks/personal/__field/_file/personal__field_file.css);
+@import url(../blocks/personal/__icon/personal__icon.css);
+@import url(../blocks/personal/__title/personal__title.css);
 
 
-@import url(../blocks/account-input/account-input.css);
-@import url(../blocks/account-input/__title/account-input__title.css);
-@import url(../blocks/account-input/__field/account-input__field.css);
-@import url(../blocks/account-input/__icon/account-input__icon.css);
-
-@import url(../blocks/personal-data-button/personal-data-button.css);
+@import url(../blocks/account/account.css);
+@import url(../blocks/account/__title/account__title.css);
+@import url(../blocks/account/__field/account__field.css);
+@import url(../blocks/account/__icon/account__icon.css);
 @import url(../blocks/account-button/account-button.css);
 
 @import url(../blocks/button/_disabled/button_disabled.css);
+@import url(../blocks/button/_personal/button_personal.css);
 
 /*---------------------------------------------------------------------------*/
 
