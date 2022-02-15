@@ -1,4 +1,4 @@
-.account-input__field {
+.account__field {
   box-sizing: border-box;
   padding: 12px 56px 12px 16px;
   width: 584px;
@@ -13,6 +13,6 @@
   cursor: pointer;
 }
 
-.account-input__field:focus {
+.account__field:focus {
   outline-color: #FF6600;
 }
