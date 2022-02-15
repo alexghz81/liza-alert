@@ -10,25 +10,27 @@
   <link rel="stylesheet" href="./pages/index.css"/>
 </head>
 <body class="page">
-<header class="header__wrapper">
-  <div class="header">
+<header class="header">
+  <div class="header__wrapper">
     <div class="header__logo">
       <p class="header__text">Учебная платформа</p>
     </div>
-    <ul class="header__navigation">
-      <li class="header__item">
-        <a href="./index.html" class="header__link header__link_active">
-          <span class="icon-courses"></span>
-          <p class="header__link-text">Курсы</p>
-        </a>
-      </li>
-      <li class="header__item">
-        <a href="./profile.html" class="header__link">
-          <span class="icon-profile"></span>
-          <p class="header__link-text">Профиль</p>
-        </a>
-      </li>
-    </ul>
+    <nav>
+      <ul class="header__navigation">
+        <li class="header__item">
+          <a href="./index.html" class="header__link header__link_active">
+            <span class="icon-courses"></span>
+            <p class="header__link-text">Курсы</p>
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="./profile.html" class="header__link">
+            <span class="icon-profile"></span>
+            <p class="header__link-text">Профиль</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
 <main class="content">
@@ -38,43 +40,45 @@
       <section class="content-wrapper filters">
         <div class="filters__section-wrapper">
           <h2 class="filters__title">Фильтры</h2>
-          <button type="button" class="filters__clear-button">Очистить</button>
+          <button type="button" class="filters__clear-button">
+            Очистить
+          </button>
         </div>
         <div class="filters__section-wrapper">
-          <input id="filters__category" type="checkbox" class="filters__category-checkbox">
+          <input id="filters__category" type="checkbox" class="filters__category-checkbox"/>
           <label class="filters__category-label" for="filters__category">Категория</label>
         </div>
         <div class="filters__section-wrapper">
-          <input id="filters__themes" type="checkbox" class="filters__category-checkbox">
+          <input id="filters__themes" type="checkbox" class="filters__category-checkbox"/>
           <label class="filters__category-label" for="filters__themes">Тематика</label>
         </div>
         <div class="filters__section-wrapper">
-          <input id="filters__level" type="checkbox" class="filters__category-checkbox">
+          <input id="filters__level" type="checkbox" class="filters__category-checkbox"/>
           <label class="filters__category-label" for="filters__level">Уровень</label>
-          <input class="filters__checkbox" type="checkbox" id="novice">
+          <input class="filters__checkbox" type="checkbox" id="novice"/>
           <label class="filters__label" for="novice">Новичок</label>
-          <input class="filters__checkbox" type="checkbox" id="advanced">
+          <input class="filters__checkbox" type="checkbox" id="advanced"/>
           <label class="filters__label" for="advanced">Бывалый</label>
-          <input class="filters__checkbox" type="checkbox" id="profi">
+          <input class="filters__checkbox" type="checkbox" id="profi"/>
           <label class="filters__label" for="profi">Профессионал</label>
         </div>
         <div class="filters__section-wrapper">
-          <input id="filters__status" type="checkbox" class="filters__category-checkbox">
+          <input id="filters__status" type="checkbox" class="filters__category-checkbox"/>
           <label class="filters__category-label" for="filters__status">Статус</label>
-          <input class="filters__checkbox" type="checkbox" id="not-active">
+          <input class="filters__checkbox" type="checkbox" id="not-active"/>
           <label class="filters__label" for="not-active">Не активный</label>
-          <input class="filters__checkbox" type="checkbox" id="subscribed">
+          <input class="filters__checkbox" type="checkbox" id="subscribed"/>
           <label class="filters__label" for="subscribed">Вы записаны</label>
-          <input class="filters__checkbox" type="checkbox" id="active">
+          <input class="filters__checkbox" type="checkbox" id="active"/>
           <label class="filters__label" for="active">Активный</label>
-          <input class="filters__checkbox" type="checkbox" id="completed">
+          <input class="filters__checkbox" type="checkbox" id="completed"/>
           <label class="filters__label" for="completed">Пройден</label>
         </div>
       </section>
-      <div class="filters__tags">
-        <span class="card__difficult filters__tag">Новичок</span>
-        <span class="card__difficult filters__tag">Бывалый</span>
-        <span class="card__difficult filters__tag">Профессионал</span>
+      <div class="filters filters_tags">
+        <span class="filters__difficult filters__tag">Новичок</span>
+        <span class="filters__difficult filters__tag">Бывалый</span>
+        <span class="filters__difficult filters__tag">Профессионал</span>
       </div>
     </div>
     <section class="cards">
@@ -99,7 +103,9 @@
               144 ч
             </div>
           </div>
-          <button class="button button_continue" type="button">Продолжить</button>
+          <button class="button button_continue" type="button">
+            Продолжить
+          </button>
         </div>
       </div>
       <div class="content-wrapper card">
@@ -108,9 +114,8 @@
           <h2 class="card__title">Оперативные дежурные</h2>
           <p class="card__difficult">Профессионал</p>
           <p class="card__description">
-            Оперативное реагирование, контроль поступающих заявок и звонков, распределение задач, помощь в решении
-            вопросов,
-            удалённое ...
+            Оперативное реагирование, контроль поступающих заявок и звонков,
+            распределение задач, помощь в решении вопросов, удалённое ...
           </p>
         </div>
         <div class="card__additional-info">
@@ -124,7 +129,9 @@
               144 ч
             </div>
           </div>
-          <button class="button button_signup" type="button">Записаться</button>
+          <button class="button button_signup" type="button">
+            Записаться
+          </button>
         </div>
       </div>
       <div class="content-wrapper card">
@@ -133,8 +140,8 @@
           <h2 class="card__title">Беспилотные летательные аппараты</h2>
           <p class="card__difficult">Бывалый</p>
           <p class="card__description">
-            Применение БПЛА в поиске людей, а так же передача полученной с помощью техники информации спасательным
-            службам
+            Применение БПЛА в поиске людей, а так же передача полученной
+            с помощью техники информации спасательным службам
           </p>
         </div>
         <div class="card__additional-info">
@@ -148,7 +155,9 @@
               144 ч
             </div>
           </div>
-          <button class="button button_signup" type="button">Записаться</button>
+          <button class="button button_signup" type="button">
+            Записаться
+          </button>
         </div>
       </div>
       <div class="content-wrapper card">
@@ -157,8 +166,8 @@
           <h2 class="card__title">Первая помощь</h2>
           <p class="card__difficult">Бывалый</p>
           <p class="card__description">
-            Основы оказания первой помощи на поиске, юридические аспекты, базовые алгоритмы, разбор ошибок при оказания
-            помощи на поиске
+            Основы оказания первой помощи на поиске, юридические аспекты,
+            базовые алгоритмы, разбор ошибок при оказания помощи на поиске
           </p>
         </div>
         <div class="card__additional-info">
@@ -172,7 +181,9 @@
               144 ч
             </div>
           </div>
-          <button class="button button_signup" type="button">Записаться</button>
+          <button class="button button_signup" type="button">
+            Записаться
+          </button>
         </div>
       </div>
       <div class="content-wrapper card">
@@ -181,7 +192,8 @@
           <h2 class="card__title">Инфогруппа</h2>
           <p class="card__difficult">Новичок</p>
           <p class="card__description">
-            Создание ориентировок, заказ карт, связь через мини АТС, обеспечение поиска
+            Создание ориентировок, заказ карт, связь через мини АТС,
+            обеспечение поиска
           </p>
         </div>
         <div class="card__additional-info">
@@ -195,7 +207,9 @@
               144 ч
             </div>
           </div>
-          <button class="button button_disabled" type="button">Пройден</button>
+          <button class="button button_disabled" type="button">
+            Пройден
+          </button>
         </div>
       </div>
       <div class="content-wrapper card">
@@ -204,7 +218,8 @@
           <h2 class="card__title">Операторы 8-800</h2>
           <p class="card__difficult">Новичок</p>
           <p class="card__description">
-            Приём заявок на поиск людей с последующей передачей информации инфоргам
+            Приём заявок на поиск людей с последующей передачей информации
+            инфоргам
           </p>
         </div>
         <div class="card__additional-info">
@@ -218,7 +233,9 @@
               144 ч
             </div>
           </div>
-          <button class="button button_signup" type="button">Записаться</button>
+          <button class="button button_signup" type="button">
+            Записаться
+          </button>
         </div>
       </div>
       <div class="content-wrapper card">
@@ -227,7 +244,8 @@
           <h2 class="card__title">Группа коротких прозвонов</h2>
           <p class="card__difficult">Новичок</p>
           <p class="card__description">
-            Прозвон больниц, ОВД, различных ведомств, иногда свидетелей и возможных свидетелей
+            Прозвон больниц, ОВД, различных ведомств, иногда свидетелей
+            и возможных свидетелей
           </p>
         </div>
         <div class="card__additional-info">
@@ -241,7 +259,9 @@
               144 ч
             </div>
           </div>
-          <button class="button button_signup" type="button">Записаться</button>
+          <button class="button button_signup" type="button">
+            Записаться
+          </button>
         </div>
       </div>
       <div class="content-wrapper card">
@@ -250,8 +270,9 @@
           <h2 class="card__title">Новичковая</h2>
           <p class="card__difficult">Новичок</p>
           <p class="card__description">
-            Короткое описание курса. Поиск людей в лесу и в городе. Все поисковые мероприятия организуются силами
-            добровольцев «ЛизаАлер…
+            Короткое описание курса. Поиск людей в лесу и в городе.
+            Все поисковые мероприятия организуются силами добровольцев
+            «ЛизаАлер…
           </p>
         </div>
         <div class="card__additional-info">
@@ -265,7 +286,9 @@
               144 ч
             </div>
           </div>
-          <button class="button button_disabled" type="button">Пройден</button>
+          <button class="button button_disabled" type="button">
+            Пройден
+          </button>
         </div>
       </div>
     </section>

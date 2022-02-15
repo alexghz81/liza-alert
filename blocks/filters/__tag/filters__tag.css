@@ -2,7 +2,7 @@
   padding-left: 9px;
   padding-right: 0;
   box-sizing: border-box;
-  margin-right: 9px;
+  margin: 2px 9px 25px 0;
 }
 
 .filters__tag::after{
