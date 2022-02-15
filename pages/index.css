@@ -47,3 +47,4 @@
 @import url(../blocks/filters/_tags/filters_tags.css);
 @import url(../blocks/filters/__tag/filters__tag.css);
 @import url(../blocks/filters/__difficult/filters__difficult.css);
+@import url(../blocks/filters/__clear-button/_show/filters__clear-button_show.css);
