@@ -28,7 +28,6 @@
 @import url(../blocks/icon-exit/icon-exit.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_exit-account/button_exit-account.css);
-@import url(../blocks/form-container/form-container.css);
 
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__text/description__text.css);
@@ -36,6 +35,7 @@
 @import url(../blocks/description/_place/description_place_personal.css);
 
 @import url(../blocks/foto-requirements/foto-requirements.css);
+@import url(../blocks/foto-requirements/__item/foto-requirement__item.css);
 @import url(../blocks/content/content.css);
 
 @import url(../blocks/personal/personal.css);

@@ -2,10 +2,8 @@
   opacity: 0;
 }
 
-.personal__field_date::-webkit-datetime-edit {
-  color: #212329
-}
-
-.personal__field_date:focus::-webkit-datetime-edit {
-  color: #212329
+.personal__field_date {
+  padding: 11px;
+  margin-left: 1px;
+  letter-spacing: 0;
 }
