@@ -25,6 +25,7 @@
 }
 .icon-clip::before {
   content: "\e902";
+  font-size: 21px;
 }
 .icon-clock::before {
   content: "\e903";
@@ -42,6 +43,7 @@
 }
 .icon-edit::before {
   content: "\e906";
+  font-size: 21px;
 }
 .icon-exit::before {
   content: "\e907";
