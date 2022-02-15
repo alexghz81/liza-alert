@@ -46,8 +46,6 @@
 @import url(../blocks/account/__title/account__title.css);
 @import url(../blocks/account/__field/account__field.css);
 @import url(../blocks/account/__icon/account__icon.css);
-
-@import url(../blocks/personal-button/personal-button.css);
 @import url(../blocks/account-button/account-button.css);
 
 @import url(../blocks/button/_disabled/button_disabled.css);
