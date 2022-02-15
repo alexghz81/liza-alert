@@ -20,7 +20,7 @@ function createTagButton(inputButton) {
   const tags = document.createElement('button');
   tags.dataset.labelValue = labelValue;
   tags.textContent = labelValue;
-  tags.classList.add('filters__difficult', 'filters__tag');
+  tags.classList.add('filters__difficult','filters__tag');
   checkedTags[labelValue] = {inputButton, tags};
 
   function deleteTag(e) {
@@ -30,7 +30,6 @@ function createTagButton(inputButton) {
     tags.remove();
     renderResetButton(tagsContainer);
   }
-
   tags.addEventListener('click', deleteTag);
 
   return tags;
@@ -57,8 +56,9 @@ function hideReset() {
 }
 
 function clickReset() {
-  while (tagsContainer.firstChild) {
-    tagsContainer.removeChild(tagsContainer.firstChild);
+  while (tagsContainer.firstChild) 
+  { 
+    tagsContainer.removeChild(tagsContainer.firstChild); 
   }
   renderResetButton(tagsContainer);
 }
@@ -70,7 +70,6 @@ function changeButtonState(button) {
 }
 
 checkboxContainer.addEventListener('input', clickCheckbox);
-radioContainer.addEventListener('click', showReset);
 resetButton.addEventListener('click', clickReset);
 buttonsSignUp.forEach(button => {
   button.addEventListener('click', changeButtonState);
