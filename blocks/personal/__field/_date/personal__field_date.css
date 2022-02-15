@@ -1,0 +1,9 @@
+.personal__field_date::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.personal__field_date {
+  padding: 11px;
+  margin-left: 1px;
+  letter-spacing: 0;
+}

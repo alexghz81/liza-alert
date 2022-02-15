@@ -12,11 +12,14 @@
 </head>
 
 <body class="page">
-  <header class="header__wrapper">
-    <div class="header">
-      <div class="header__logo">
+<header class="header">
+  <div class="header__wrapper">
+    <div class="header__logo">
+      <a href="./index.html" class="header__link">
         <p class="header__text">Учебная платформа</p>
-      </div>
+      </a>
+    </div>
+    <nav>
       <ul class="header__navigation">
         <li class="header__item">
           <a href="./index.html" class="header__link">
@@ -31,114 +34,130 @@
           </a>
         </li>
       </ul>
+    </nav>
+  </div>
+</header>
+<main class="content">
+  <h1 class="section-title">Профиль</h1>
+  <section class="profile">
+    <div class="profile__wrapper profile__info">
+      <img src="./images/avatar-img.jpg" alt="изображение аватар пользователя"
+           class="profile__photo"/>
+      <h2 class="profile__title">Иванова Анна Сидоровна</h2>
+      <div class="profile__ranks">
+        <span class="icon-professional icon-user"></span>
+        <h3 class="user-title" id="rank">Профессионал</h3>
+        <span class="icon-medal icon-user"></span>
+        <h3 class="user-title" id="role">Картограф</h3>
+        <span class="icon-courses icon-user"></span>
+        <h3 class="user-title" id="courses">Пройдено 2 курса</h3>
+      </div>
+      <button class="button button_profile button_signup" type="button">
+        <span class="icon-exit"></span>
+        Выйти из аккаунта
+      </button>
     </div>
-  </header>
-  <main class="content">
-    <h1 class="section-title">Профиль</h1>
-    <section class="profile-page-container">
-      <div class="content-wrapper profile">
-        <img src="./images/avatar-img.jpg" alt="изображение аватар пользователя" class="profile__photo" />
-        <h2 class="profile__title">Иванова Анна Сидоровна</h2>
-        <div class="profile__ranks">
-          <span class="icon-professional icon-user"></span>
-          <h3 class="user-title" id="rank">Профессионал</h3>
-          <span class="icon-medal icon-user"></span>
-          <h3 class="user-title" id="role">Картограф</h3>
-          <span class="icon-courses icon-user"></span>
-          <h3 class="user-title" id="courses">Пройдено 2 курса</h3>
-        </div>
-        <button class="button button_exit-account" type="button">
-          <span class="icon-exit"></span>
-          Выйти из аккаунта
-        </button>
+    <form class="profile__wrapper profile__personals" name="personalData" id="profileForm">
+      <h2 class="profile__subtitle">Личные данные</h2>
+      <div class="personal">
+        <label class="personal__title" for="name">ФИО</label>
+        <input class="personal__field" type="text" name="fullName" id="name"
+               placeholder="Иванова Анна Сидоровна"
+               value="Иванова Анна Сидоровна" required>
+        <span class="personal__icon icon-edit"></span>
       </div>
-      <!--    <form class="form-container personal-data" name="personalData">-->
-      <form class="content-wrapper profile__personals" name="personalData">
-        <h2 class="form-container__title">Личные данные</h2>
-        <div class="personal-data-input">
-          <label class="personal-data-input__title" for="name">ФИО</label>
-          <input class="personal-data-input__field" type="text" name="fullName" id="name" placeholder="Введите ФИО"
-            required>
-          <span class="personal-data-input__icon icon-edit"></span>
-        </div>
-        <div class="personal-data-input">
-          <label class="personal-data-input__title" for="date">Дата рождения</label>
-          <input class="personal-data-input__field personal-data-input__field_date" type="date" name="date" id="date">
-          <span class="personal-data-input__icon icon icon-edit"></span>
-        </div>
-        <div class="personal-data-input">
-          <label class="personal-data-input__title" for="regionName">Географический регион</label>
-          <input class="personal-data-input__field" type="text" name="regionName" id="region"
-            placeholder="Введите свой город" required>
-          <span class="personal-data-input__icon icon-edit"></span>
-        </div>
-        <div class="personal-data-input">
-          <label class="personal-data-input__title" for="nickname">Позывной на форуме</label>
-          <input class="personal-data-input__field" type="text" name="nickname" id="nickname"
-            placeholder="Введите свой никнейм" required>
-          <span class="personal-data-input__icon icon-edit"></span>
-        </div>
-        <div class="personal-data-input">
-          <label class="personal-data-input__title" for="photo">Фото</label>
-          <input class="personal-data-input__field personal-data-input__field_file" type="file" name="fullName"
-            id="photo" required>
-          <span class="personal-data-input__icon icon-clip"></span>
-        </div>
-        <button class="personal-data-button button button_disabled" type="submit">Сохранить изменения</button>
-      </form>
-      <form class="form-container account profile__personals">
-        <h2 class="form-container__title">Аккаунт</h2>
-        <div class="account-input">
-          <label class="account-input__title" for="tel">Номер телефона</label>
-          <input class="account-input__field" type="tel" name="telephone" id="tel" placeholder="Введите номер телефон"
-            required>
-        </div>
-        <div class="account-input">
-          <label class="account-input__title" for="email">Email</label>
-          <input class="account-input__field" type="email" name="fullEmail" id="email" required>
-          <span class="account-input__icon icon-edit"></span>
-        </div>
-        <div class="account-input">
-          <label class="account-input__title" for="pass">Пароль</label>
-          <input class="account-input__field account-input__field_password" type="password" name="password"
-            placeholder="Введите пароль" id="pass" required>
-          <span class="account-input__icon icon-edit"></span>
-        </div>
-        <button class="account-button button button_disabled" type="submit">Сохранить изменения</button>
-      </form>
-      <div class="user-data-description">
-        <p class="user-data-description__text">
-          Просьба указывать настоящие ФИО, это нужно для получения сертификатов
-        </p>
-        <p class="user-data-description__text">
-          Географический регион влияет на доступность некоторых курсов и занятий
-        </p>
-        <p class="user-data-description__text">
-          Если вы не хотите, чтобы другие пользователи видели ваши ФИО, укажите
-          позывной на форуме — он будет отображаться вместо ваших настоящих
-          данных
-        </p>
-        <p class="user-data-description__text">
-          Требования к загружаемому фото:
-        </p>
-        <ul class="foto-requirements">
-          <li class="foto-requirements__item">разрешение не менее 640x640px</li>
-          <li class="foto-requirements__item">размер не более 3 МБ</li>
-        </ul>
-        <p class="user-data-description__text">
-          Номер телефона используется как уникальный идентификатор пользователя,
-          поэтому его нельзя поменять вручную
-        </p>
-        <p class="user-data-description__text">
-          Если по какой-то причине у вас нет доступа к номеру телефона
-          на который вы регистрировали аккаунт, напишите в поддержку
-        </p>
-        <p class="user-data-description__text">
-          Email нужен для восстановления пароля
-        </p>
+      <div class="personal">
+        <label class="personal__title" for="date">Дата рождения</label>
+        <input class="personal__field personal__field_date" type="date" name="date" id="date"
+               value="1990-01-01">
+        <span class="personal__icon icon-edit"></span>
       </div>
-    </section>
-  </main>
+      <div class="personal">
+        <label class="personal__title" for="regionName">Географический регион</label>
+        <input class="personal__field" type="text" name="regionName" id="regionName"
+               placeholder="Введите свой город"
+               required value="г. Санкт-Петербург">
+        <span class="personal__icon icon-edit"></span>
+      </div>
+      <div class="personal">
+        <label class="personal__title" for="nickname">Позывной на форуме</label>
+        <input class="personal__field" type="text" name="nickname" id="nickname"
+               placeholder="Введите свой никнейм"
+               required value="Белка">
+        <span class="personal__icon icon-edit"></span>
+      </div>
+      <div class="personal">
+        <label class="personal__title" for="photo">Фото</label>
+        <input class="personal__field personal__field_file" type="file" name="fullName" id="photo">
+        <span class="personal__icon icon-clip"></span>
+      </div>
+      <button class="button button_profile button_disabled" id="profile" type="submit">Сохранить
+        изменения
+      </button>
+    </form>
+    <form class="profile__wrapper profile__personals" id="accountForm">
+      <h2 class="profile__subtitle">Аккаунт</h2>
+      <div class="account">
+        <label class="account__title" for="tel">Номер телефона</label>
+        <input class="account__field" type="tel" name="telephone" id="tel"
+               placeholder="+7 123 456 78 90" required>
+      </div>
+      <div class="account">
+        <label class="account__title" for="email">Email</label>
+        <input class="account__field" type="email" name="fullEmail" id="email"
+               value="anna@liza-alert.ru" required>
+        <span class="account__icon icon-edit"></span>
+      </div>
+      <div class="account">
+        <label class="account__title" for="pass">Пароль</label>
+        <span class="account__password"></span>
+        <input class="account__field account__field_pass" type="password" name="password"
+               placeholder="Введите пароль"
+               id="pass" required>
+        <span class="account__icon icon-edit"></span>
+      </div>
+      <button class="button button_profile button_disabled" id="account" type="submit">Сохранить
+        изменения
+      </button>
+    </form>
+    <div class="description description_place_profile">
+      <p class="description__text">
+        Просьба указывать настоящие ФИО, это нужно для получения сертификатов
+      </p>
+      <p class="description__text">
+        Географический регион влияет на доступность некоторых курсов и занятий
+      </p>
+      <p class="description__text">
+        Если вы не хотите, чтобы другие пользователи видели ваши ФИО, укажите
+        позывной на форуме — он будет отображаться вместо ваших настоящих
+        данных
+      </p>
+      <p class="description__text">
+        Требования к загружаемому фото:
+      </p>
+      <ul class="foto-requirements">
+        <li class="foto-requirements__item">разрешение не менее 640x640px</li>
+        <li class="foto-requirements__item">размер не более 3 МБ</li>
+      </ul>
+    </div>
+    <div class="description description_place_personal">
+      <p class="description__text">
+        Номер телефона используется как уникальный идентификатор пользователя,
+        поэтому его нельзя поменять вручную
+      </p>
+      <p class="description__text">
+        Если по какой-то причине у вас нет доступа к номеру телефона
+        на который вы регистрировали аккаунт, напишите в поддержку
+      </p>
+      <p class="description__text">
+        Email нужен для восстановления пароля
+      </p>
+    </div>
+  </section>
+</main>
+<script src="./script/const.js"></script>
+<script src="./script/script_profile.js"></script>
+<script src="./script/passw.js" defer></script>
 </body>
 
 </html>
