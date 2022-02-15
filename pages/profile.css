@@ -24,10 +24,11 @@
 @import url(../blocks/profile/__personals/profile__personals.css);
 
 @import url(../blocks/user-title/user-title.css);
-@import url(../blocks/icon-user/icon-user.css);
-@import url(../blocks/icon-exit/icon-exit.css);
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/_exit-account/button_exit-account.css);
+@import url(../blocks/button/_profile/button_profile.css);
+@import url(../blocks/button/_signup/button_signup.css);
+@import url(../blocks/button/_disabled/button_disabled.css);
+@import url(../blocks/button/_continue/button_continue.css);
 
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__text/description__text.css);
@@ -44,7 +45,6 @@
 @import url(../blocks/personal/__field/_file/personal__field_file.css);
 @import url(../blocks/personal/__icon/personal__icon.css);
 @import url(../blocks/personal/__title/personal__title.css);
-
 
 @import url(../blocks/account/account.css);
 @import url(../blocks/account/__title/account__title.css);
