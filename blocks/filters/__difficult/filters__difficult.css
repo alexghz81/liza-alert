@@ -1,7 +1,8 @@
 .filters__difficult {
   background-color: #e6e7eb;
-  font-family: Golos;
+  font-family: Golos, serif;
   border-radius: 16px;
   font-size: 18px;
+  line-height: 22px;
   width: fit-content;
 }
