@@ -1,0 +1,4 @@
+.personal__field_file::-webkit-file-upload-button {
+  opacity: 0;
+  position: absolute;
+}

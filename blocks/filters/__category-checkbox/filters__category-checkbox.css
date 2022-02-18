@@ -1,0 +1,31 @@
+.filters__category-checkbox {
+  appearance: none;
+  position: absolute;
+}
+
+.filters__category-checkbox:checked ~ .filters__category-label {
+  margin-bottom: 35px;
+}
+
+.filters__category-checkbox:checked ~ .filters__label {
+  display: block;
+}
+
+.filters__category-checkbox ~ .filters__category-label::after {
+  content: '';
+  width: 12px;
+  height: 8px;
+  background-image: url("../../../images/icons/down_arrow.svg");
+  display: inline-flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform .2s;
+  margin-right: 6px;
+}
+
+.filters__category-checkbox:checked ~ .filters__category-label::after {
+  content: '';
+  transition: transform .2s;
+  transform: rotate(180deg);
+
+}

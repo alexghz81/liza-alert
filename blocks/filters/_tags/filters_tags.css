@@ -1,0 +1,5 @@
+.filters_tags {
+  flex-wrap: wrap;
+  margin-top: 30px;
+  flex-direction: row;
+}

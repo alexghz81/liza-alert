@@ -1,0 +1,14 @@
+.filters__section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #E5E5E5;
+  /*padding-bottom: 33px;*/
+  /*margin-top: 34px;*/
+  flex-shrink: 0;
+}
+
+.filters__section-wrapper:first-child {
+  border: none;
+  padding-bottom: 0;
+  justify-content: space-between;
+}

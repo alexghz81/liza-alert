@@ -1,0 +1,8 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / 2;
+  font-family: Golos, serif;
+  height: fit-content;
+  padding-bottom: 0;
+}

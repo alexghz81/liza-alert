@@ -1,0 +1,8 @@
+.profile__ranks {
+  display: grid;
+  grid-template-columns: 20px auto;
+  align-items: center;
+  gap: 16px 10px;
+  padding-left: 2px;
+  margin-bottom: 32px;
+}
